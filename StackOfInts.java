@@ -24,7 +24,7 @@ public void push(int number)
 public int pop() 
 {   
 	if (a[0] == -1)
-     		throw new IllegalStateException("Can't dequeue from an empty queue.");
+     		throw new IllegalStateException("Can't remove from an empty stack.");
      	int firstItem = a[0];
 	N--;
 	for(int i = 1; i < a.length; i++)
